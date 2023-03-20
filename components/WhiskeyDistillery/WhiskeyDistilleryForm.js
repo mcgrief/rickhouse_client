@@ -36,6 +36,7 @@ const WhiskeyDistilleryForm = ({ obj }) => {
         [name]: value,
       }));
     }
+    console.warn(obj);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
